@@ -1,5 +1,5 @@
 [client]
 user = YOUR-ADMIN-USERNAME
 password = YOUR-ADMIN-PASSWORD
-host = YOUR-RDS-HOST
+host = tastylog-dev-mysql-standalone.cgarcoy5zbd3.ap-northeast-1.rds.amazonaws.com
 port = 3306
