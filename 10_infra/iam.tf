@@ -17,8 +17,7 @@ resource "aws_iam_role" "app_iam_role" {
     Name    = "${var.project}-${var.environment}-app-iam-role"
     Project = var.project
     Env     = var.environment
-    ybai    = "pk"
-    mgeege  = "le"
+    Message = "Hello"
   }
 }
 
@@ -53,6 +52,7 @@ resource "aws_iam_role_policy_attachment" "app_iam_role_s3_readonly" {
   policy_arn = "arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess"
 }
 
+
 # ecs-task-exec-iam-role
 # ---------------------------------------------
 resource "aws_iam_role" "ecs_task_exec_iam_role" {
@@ -63,7 +63,6 @@ resource "aws_iam_role" "ecs_task_exec_iam_role" {
     Name    = "${var.project}-${var.environment}-ecs-task-exec-iam-role"
     Project = var.project
     Env     = var.environment
-    Message = "Hello"
   }
 }
 
