@@ -14,7 +14,7 @@ jobs:
         with:
           channel-id: "C04EC1RQX8X"
           payload: |
-            {
+            
                 {
                   "attachments": [
                     {
@@ -39,6 +39,6 @@ jobs:
                   ]
                 }
 
-              }
+            
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
