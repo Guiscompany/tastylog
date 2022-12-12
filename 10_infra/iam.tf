@@ -52,7 +52,6 @@ resource "aws_iam_role_policy_attachment" "app_iam_role_s3_readonly" {
   policy_arn = "arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess"
 }
 
-
 # ecs-task-exec-iam-role
 # ---------------------------------------------
 resource "aws_iam_role" "ecs_task_exec_iam_role" {
