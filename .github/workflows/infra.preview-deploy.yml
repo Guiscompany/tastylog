@@ -25,7 +25,6 @@ defaults:
     working-directory: "10_infra/"
 
 
-
 jobs:
   preview:
     name: "Preview"
